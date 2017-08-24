@@ -1,0 +1,12 @@
+ 
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"> 
+<suite name="TestAll"  >
+ <parameter name="browser" value="Firefox"/>
+ <parameter name="URL" value="http://puma.aceturtle.in"/>
+ <test name="Regression">
+ <classes>
+  <class name = "com.Puma_Steps.End_To_Endsteps"/>
+</classes>
+</test>
+
+ </suite>

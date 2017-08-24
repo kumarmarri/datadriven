@@ -1,0 +1,3 @@
+BaseUrl = http://puma.aceturtle.in/
+
+Browser = FirefoxDriver

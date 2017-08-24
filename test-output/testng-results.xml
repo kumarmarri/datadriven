@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="suite" duration-ms="69613" started-at="2017-08-03T06:39:51Z" finished-at="2017-08-03T06:41:01Z">
+    <groups>
+    </groups>
+    <test name="Regression" duration-ms="69613" started-at="2017-08-03T06:39:51Z" finished-at="2017-08-03T06:41:01Z">
+      <class name="com.Puma_Steps.PLPsteps">
+        <test-method status="PASS" signature="openBrowser(java.lang.String, java.lang.String)[pri:0, instance:com.Puma_Steps.PLPsteps@e45f292]" name="openBrowser" is-config="true" duration-ms="19938" started-at="2017-08-03T12:09:51Z" finished-at="2017-08-03T12:10:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://in.puma.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.Puma_Steps.PLPsteps@e45f292]" name="beforeMethod" is-config="true" duration-ms="19" started-at="2017-08-03T12:10:11Z" finished-at="2017-08-03T12:10:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="plppage()[pri:0, instance:com.Puma_Steps.PLPsteps@e45f292]" name="plppage" duration-ms="11509" started-at="2017-08-03T12:10:11Z" finished-at="2017-08-03T12:10:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- plppage -->
+      </class> <!-- com.Puma_Steps.PLPsteps -->
+      <class name="com.Puma_Steps.PDP_steps">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.Puma_Steps.PDP_steps@5f2108b5]" name="beforeMethod" is-config="true" duration-ms="4" started-at="2017-08-03T12:10:23Z" finished-at="2017-08-03T12:10:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="quantitychange()[pri:0, instance:com.Puma_Steps.PDP_steps@5f2108b5]" name="quantitychange" duration-ms="38110" started-at="2017-08-03T12:10:23Z" finished-at="2017-08-03T12:11:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quantitychange -->
+      </class> <!-- com.Puma_Steps.PDP_steps -->
+    </test> <!-- Regression -->
+  </suite> <!-- suite -->
+</testng-results>

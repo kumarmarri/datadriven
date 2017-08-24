@@ -1,0 +1,22 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="suite" verbose="1">
+	<parameter name="browser" value="Firefox" />
+	  <parameter name="URL" value=" http://max.aceturtle.in" /> 
+	  
+    <!-- <parameter name="URL" value="http://max.aceturtle.in/" /> -->
+	<test name="Regression Test" preserve-order="true">
+		<classes>
+		 <!-- <class name = "maxsteps.HomePageSteps" />  -->
+			<class name="maxsteps.PLPSteps" />
+			<class name="maxsteps.PDPPageSteps" />
+			<class name="maxsteps.Shoppingcartsteps"/>
+			<class name="maxsteps.ShippingPageSteps"/>
+			
+			
+		</classes>
+		</test>
+		
+		
+  
+</suite>
